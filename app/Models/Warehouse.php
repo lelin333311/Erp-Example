@@ -10,7 +10,15 @@ class Warehouse extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'code', 'location', 'manager_name', 'phone', 'status'];
+    protected $fillable = [
+    'name', 
+    'code', 
+    'location', 
+    'manager_name', 
+    'phone', 
+    'status'
+    
+    ];
 
     public function products(): HasMany
     {

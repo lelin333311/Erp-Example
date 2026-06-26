@@ -41,4 +41,3 @@ class OrderController extends Controller
         return redirect()->route('sales.orders.index')->with('success', 'Sales order created.');
     }
 }
-
